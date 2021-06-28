@@ -2,6 +2,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+}
+
+/*header*/
 .right{
     float: right;
     margin-right: 40px;
@@ -27,10 +34,11 @@ body{
     padding-right: 20px;
 }
 
+/*banner*/
 .banner{
     height: 400px;
     width: 100%;
-    background-image: url(https://i.pinimg.com/736x/17/36/a3/1736a33509cf402e46813301956f25df.jpg);
+    background-image: url(https://coverfiles.alphacoders.com/150/thumb-1920-150394.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +49,7 @@ body{
 
 .banner h1{
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     text-decoration: underline;
     grid-row-start: 2;
@@ -52,10 +60,63 @@ body{
 
 .banner h2{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     grid-row-start: 3;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
+/*about*/
+
+.article-name{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 50px 20px 50px;
+    padding: 20px;
+    background-color: cadetblue;
+    text-decoration: underline;
+}
+
+.article-text{
+    width: 50%; 
+    text-indent: 20px;
+    border: black solid 2px;
+    padding: 20px;
+    padding-top: 65px;
+    line-height: 25px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.small-img{
+    width: 250px;
+    margin: 20px;
+    margin-left: 80px;
+    border: black solid 2px;
+}
+
+.about-me{
+    background-color: darkgray;
+    padding: 40px;
+}
+
+ul{
+    margin: 70px 60px 10px 0;
+    border: black solid 1px;
+    padding: 30px;
+    padding-left: 40px;
+    height: 70%;
+}
+
+li{
+    padding: 3px;
+}
+
+.sixty{
+    width: 60%;
+}

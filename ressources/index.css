@@ -1,0 +1,61 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right{
+    float: right;
+    margin-right: 40px;
+}
+
+.right a {
+    margin: 10px;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+}
+
+.padding{
+    padding: 20px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+}
+
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/17/36/a3/1736a33509cf402e46813301956f25df.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.banner h2{
+    text-align: center;
+    color: white;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+

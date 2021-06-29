@@ -81,7 +81,7 @@ body{
 .article-text{
     width: 50%; 
     text-indent: 20px;
-    border: black solid 2px;
+    border: rgb(21, 5, 59) solid 2px;
     padding: 20px;
     padding-top: 65px;
     line-height: 25px;
@@ -94,10 +94,10 @@ body{
 }
 
 .small-img{
-    width: 250px;
+    width: 280px;
     margin: 20px;
     margin-left: 80px;
-    border: black solid 2px;
+    border: rgb(21, 5, 59) solid 2px;
 }
 
 .about-me{
@@ -106,8 +106,8 @@ body{
 }
 
 ul{
-    margin: 70px 60px 10px 0;
-    border: black solid 1px;
+    margin: 0 60px 10px 0;
+    border: black solid 2px;
     padding: 30px;
     padding-left: 40px;
     height: 70%;
@@ -119,4 +119,66 @@ li{
 
 .sixty{
     width: 60%;
+}
+
+/*projects*/ 
+
+.project-name{
+    font-size: 22px;
+    padding: 20px;
+}
+
+.medium-img{
+    width: 600px;
+}
+
+.text{
+    text-indent: 20px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.border{
+    border:rgb(0, 0, 0) solid 2px;
+}
+
+.grey{
+    background-color: darkgray;
+}
+
+.white{
+    background-color: white;
+}
+
+.margin{
+    margin: 10px;
+}
+
+.padding-ten{
+    padding: 10px;
+}
+
+.margin-top{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.smaller{
+    font-size: 15px;
+}
+
+.naruto{
+    margin-top: 100px;
+}
+
+section{
+    margin-top: 70px;
+}
+
+.descrip{
+    width: 250px;
+}
+
+.hidden{
+    visibility: hidden;
 }

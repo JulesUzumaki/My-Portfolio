@@ -182,3 +182,28 @@ section{
 .hidden{
     visibility: hidden;
 }
+
+.skills{
+    width: 450px;
+    margin: 10px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+/*skills*/
+.center{
+    margin: auto;
+}
+
+.eighty{
+    width: 80%;
+}
+
+footer{
+    background-color: rgb(101, 101, 133);
+    padding: 20px;
+    margin: 0;
+}
